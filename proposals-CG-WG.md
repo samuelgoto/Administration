@@ -2,9 +2,9 @@
 
 This is a proposal to break proposals into 5 stages of maturity, with clear guidelines and requirements to advance them:
 
-* [Stage 0](#stage0): Understand the problem
-* [Stage 1](#stage1): Understand the solutions
-* [Stage 2](#stage2): Formalize a specific proposal
+* [Stage 0](#stage0): Understand the Problem Space
+* [Stage 1](#stage1): Incubate Proposals
+* [Stage 2](#stage2): Specify a Preferred Proposal
 * [Stage 3](#stage3): Gather more implementation experience
 * [Stage 4](#stage4): Publish a proposed recommendation
 
@@ -21,11 +21,12 @@ This is a proposal to break proposals into 5 stages of maturity, with clear guid
     * Products of the prior stage and
     * The CG consensus that the problem is worth spending the CG’s time working on
   * Entrance artifact
-    * A FedID repo gets created in the CG for the champions to develop the feature (e.g. [example](https://github.com/fedidcg/CrossSiteCookieAccessCredential))
+    * A FedID repo gets created in the CG for the champions to develop the feature (e.g. [example](https://github.com/fedidcg/CrossSiteCookieAccessCredential)). Small features that can live as issues don't need to have full repos.
   * Exit criteria
     * An [explainer](https://tag.w3.org/explainers/)
     * A specific proposal under consideration (with varying degrees of specificity, e.g. from code samples to a spec PR)
-    * Alternatives considered Issues filed by FedID CG members in the repo
+    * Alternatives considered
+    * Knonwn issues identified
     * Implementation experience (e.g. a prototype, dev trials, origin trials, etc) 
     * Evidence of developer demand
   * Purpose
@@ -38,7 +39,8 @@ This is a proposal to break proposals into 5 stages of maturity, with clear guid
 # Stage 2
    * Purpose
      * Refine the proposal to produce a [Working Draft](https://www.w3.org/policies/process/\#RecsWD)
-     * Deal with corner cases <br>* Specify details Integrate proposal with other parts
+     * Deal with corner cases
+     * Specify details Integrate proposal with other parts
      * Resolve concerns
   * Entrance criteria
     * Products of the prior stage and WG consensus to adopt the solution as the basis for their work
