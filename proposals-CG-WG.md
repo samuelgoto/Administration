@@ -6,11 +6,11 @@ This is a proposal to break proposals into 5 stages of maturity, with clear guid
 * [Stage 1](#stage1): Incubate Proposals
 * [Stage 2](#stage2): Specify a Preferred Proposal
 * [Stage 3](#stage3): Increase Deployment Confidence
-* [Stage 4](#stage4): Publish a Proposed Recommendation
+* [Stage 4](#stage4): Produced a Proposed Recommendation
 
 # Stage 0
 
-The purpose of Stage 0 proposals is to allow anyone to raise and explore the Problem Space without asking for permission.  
+The purpose of Stage 0 Proposals is to allow anyone to raise and explore the Problem Space without asking for permission.  
 
   * Entrance criteria
     * Nothing: no permission needed from anyone. 
@@ -19,9 +19,10 @@ The purpose of Stage 0 proposals is to allow anyone to raise and explore the Pro
   * Exit criteria
     * Identification of [champions](https://github.com/tc39/how-we-work/blob/main/champion.md)
     * A problem statement 
+
 # Stage 1
 
-The purpose of Stage 1 proposals is to explore the Solution Space and pick a preferred direction. This is where most of the work gets done because it involves exploring alternatives, understanding tradeoffs, gathering implementation experience, incubating alternatives, gathering evidence of demand and product market fit and finally identifying the best out of the many alternatives.
+The purpose of Stage 1 Proposals is to explore the Solution Space and pick a preferred direction. This is where most of the work gets done because it involves exploring alternatives, understanding tradeoffs, gathering implementation experience, incubating alternatives, gathering evidence of demand and product market fit and finally identifying the best out of the many alternatives.
 
   * Entrance criteria
     * Products of the prior stage and
@@ -37,6 +38,9 @@ The purpose of Stage 1 proposals is to explore the Solution Space and pick a pre
     * Evidence of developer demand
 
 # Stage 2
+
+The purpose of Stage 2 Proposals is to formally specify the alternative that was identified as best in the previous step: dealing with corner cases, integrating with other parts, reconciling with other ongoing proposals and resolving concerns that were raised. The proposal enters this stage in an imperfect but seemingly workable state and leaves it with all of the concerns resolved.
+
   * Entrance criteria
     * Products of the prior stage and
     * WG consensus to adopt the solution as the basis for their work.
@@ -49,14 +53,11 @@ The purpose of Stage 1 proposals is to explore the Solution Space and pick a pre
     * The [Editor’s draft](https://www.w3.org/policies/process/#editors-draft) addresses all issues that were identified at the entrance
     * Web Platform Tests
     * Further implementation experience
-   * Purpose
-     * Refine the proposal to produce a [Working Draft](https://www.w3.org/policies/process/#RecsWD)
-     * Deal with corner cases
-     * Specify details
-     * Integrate proposal with other parts
-     * Reeconcile proposal with other proposals
-     * Resolve concerns
+ 
 # Stage 3
+
+The purpose of Stage 3 Proposals is to gather two independent implementation experience to produce a [Candidate Recommendation](https://www.w3.org/policies/process/#RecsCR).
+
   * Entrance criteria
     * Products of the prior stage and
     * WG consensus that the [Editor’s Draft](https://www.w3.org/policies/process/#editors-draft) sufficiently resolves all of the issues raised
@@ -65,12 +66,11 @@ The purpose of Stage 1 proposals is to explore the Solution Space and pick a pre
   * Exit criteria
     * Two independent and interoperable implementations
     * Significant deployment experience
- * Purpose
-    * Gather two independent implementation experience to produce a [Candidate Recommendation](https://www.w3.org/policies/process/#RecsCR)
   
 # Stage 4
-  * Purpose
-    * Inclusion as a [W3C Recommendation](https://www.w3.org/policies/process/#RecsW3C)
+
+The purpose of Stage 3 Proposals is to produce a [W3C Recommendation](https://www.w3.org/policies/process/#RecsW3C).
+
   * Entrance criteria
     * Products of the prior stage and
     * WG consensus that the [Working Draft](https://www.w3.org/policies/process/#RecsWD) as a whole is complete
